@@ -21,11 +21,11 @@
 
 
                 ///<sumary>
-                ///Escreva o prompt e leia
+                ///Write the prompt and read
                 ///</sumary>
-                ///<param name="lastUsedValue">O valor-padrão.</param>
-                ///<param name="prompt">Prompt para imprimir no console.</param>
-                ///<returns>I valor int lido, ou o valor-padrão se não for possível converter.</returns
+                ///<param name="lastUsedValue">The default value.</param>
+                ///<param name="prompt">Prompt to print to the console.</param>
+                ///<returns>The read int value, or the default value if it cannot be converted.</returns
                 static int ReadInt (int lastUsedValue, string prompt)
                 {
                     Console.Write(prompt + " [" + lastUsedValue + "]:");
